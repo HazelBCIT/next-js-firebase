@@ -30,6 +30,8 @@ export default function Home() {
     }
   }
 
+  
+
   const login = async () => {
     try {
       const user = await signInWithEmailAndPassword(auth, loginEmail, loginPassword);
